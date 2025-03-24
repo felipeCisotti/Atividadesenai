@@ -1,0 +1,100 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0%;
+    padding-left: 130px;
+    background: #ede8e8; 
+    margin-right: 20px;
+}
+
+.title{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border-left: 5px solid black;
+}
+
+header {
+    background-color: #2c3e50; /* Cor de fundo da barra */
+    width: 110px; /* Largura da barra */
+    height: 100%; /* A altura 100% da tela */
+    position: fixed; /* Fixa a barra no lado esquerdo */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    color: white;
+  }
+
+  /* Estilo da lista não ordenada */
+  nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilo de cada item da lista */
+  nav ul li {
+    text-align: center;
+    margin: 0px;
+  }
+
+  /* Estilo dos links */
+  nav ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 14px; /* Tamanho de fonte ajustado */
+    padding: 55px 1px; /* Espaçamento interno ajustado */
+    display: block; /* Faz o link ocupar toda a largura do item */
+  }
+
+  /* Efeito ao passar o mouse */
+  nav ul li a:hover {
+    background-color: #0080ff; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+
+
+
+.secao{
+        background: #fff;
+        padding: 20PX;
+        margin: 20px 0;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+
+  footer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    text-align: center;  
+  }
+
+  #intro{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+
+#cntx{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+
+#pa{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+
+#leg{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+#conc{
+    border-left: 5px solid rgb(0, 0, 0);    
+}
